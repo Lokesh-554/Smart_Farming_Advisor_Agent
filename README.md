@@ -1,38 +1,62 @@
+# 📘 IBM SkillsBuild Internship – AI and Cloud Technologies
+
+This project was developed as part of the **IBM SkillsBuild Internship** focused on **Artificial Intelligence (AI)** and **Cloud Technologies**.
+
+### 🧠 Focus Areas
+- AI Agent Development
+- IBM Cloud Deployment
+- Retrieval-Augmented Generation (RAG)
+- IBM Watsonx & Granite Models
+
+### 🎯 Goals
+- Build a smart AI agent for agricultural use cases
+- Use cloud services for deployment and API integration
+- Enable multilingual and real-time information delivery
+
+### 🎓 IBM Certifications Earned
+- ✅ Getting Started with AI  
+- ✅ Journey to Cloud  
+- ✅ RAG Lab
+
+---
+
 # 🌾 AI Agent for Smart Farming Advice
 
-A capstone project developed as part of the IBM Skills Build AI & Cloud Internship, this AI-powered agent provides localized, real-time agricultural advice to small-scale farmers using IBM Granite with RAG (Retrieval-Augmented Generation).
+A capstone project under the IBM internship, this AI-powered agent delivers **localized, real-time agricultural advice** to small-scale farmers using **IBM Granite LLMs** and **RAG (Retrieval-Augmented Generation)**.
 
 ---
 
 ## 📌 Problem Statement
 
-Small-scale farmers often lack access to real-time, trustworthy, and localized agricultural information. This project solves this challenge with an AI agent that can answer farmer queries like:
+Small farmers often lack timely and localized agricultural information.
 
-- "What crop should I plant this season?"
-- "What is today’s mandi rate for tomatoes?"
+This project solves that by enabling farmers to ask queries like:
 
-The AI retrieves data from reliable sources such as government portals, weather APIs, and agricultural databases to deliver accurate insights in multiple languages.
+- *"What crop should I plant this season?"*
+- *"What is today’s mandi rate for tomatoes?"*
+
+The AI retrieves answers from reliable data sources such as government portals, weather APIs, and agricultural databases.
 
 ---
 
 ## ✅ Proposed Solution
 
-- Build an AI assistant using IBM Granite models with RAG.
-- Interact with farmers in regional languages.
-- Retrieve real-time data on:
+- Develop an AI assistant using **IBM Granite-3-3-8-b-instruct** model.
+- Interact in regional languages (Hindi, Telugu, Tamil, Kannada).
+- Provide real-time information on:
   - Crop recommendations
+  - Market prices (mandi)
   - Weather forecasts
-  - Pest control
+  - Pest management
   - Soil health
-  - Market (mandi) prices
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🛠️ Technologies & Tools Used
 
-- **IBM Cloud Lite and its Services**
+- **IBM Cloud Lite**
 - **IBM Watsonx.ai**
-- **Granite-3-8 Model** (for LLM)
+- **Granite-3-3-8-b-instruct (LLM)**
 - **RAG (Retrieval-Augmented Generation)**
 - **OpenWeatherMap API**
 - **Agmarknet**
@@ -43,41 +67,60 @@ The AI retrieves data from reliable sources such as government portals, weather 
 
 ## 🧠 Model & Deployment
 
-- Chosen LLM: `granite-3-3-8-b instruct`
-- Converts agricultural datasets and documents to vector format for retrieval.
-- Deployed via IBM Watsonx with proper API key, deployment space, and preview.
-- Multilingual prompt handling (Hindi, Telugu, Tamil, Kannada).
-- Live integration with weather and mandi APIs.
+- Uses **vectorized agricultural data** for semantic search via RAG.
+- Multilingual support using prompt engineering.
+- Deployed using **IBM Watsonx** deployment space with preview link.
+- Secured via API keys and tested in Watsonx Studio.
 
 ---
 
 ## ✅ Results
 
-### 🧪 Sample Queries and Responses:
+### 🧪 Sample Queries and Responses
 
 - **Q**: “What crop should I plant in Kharif in Karnataka with red sandy soil?”  
-  **A**: “Millets and groundnut are recommended for Kharif in Karnataka with red sandy soil due to low water needs and good profitability.”
+  **A**: “Millets and groundnut are recommended due to low water needs and better yield in red sandy soil.”
 
 - **Q**: “आज गुंटूर में टमाटर का मुंडी भाव क्या है?”  
   **A**: “आज गुंटूर में टमाटर का औसत मुंडी भाव ₹1450 प्रति टन है।”
 
-### 🔍 Key Outcomes
+### 🔍 Key Highlights
 
-- Real-time, multilingual, localized responses
-- Integrated with live APIs
-- Context-aware retrieval with RAG
-- Simple and useful advice for farmers
+- Live, real-time responses
+- Multilingual support
+- Context-aware answer generation
+- API-integrated and farmer-friendly
 
 ---
 
 ## 🚀 Future Scope
 
-- Integrate with IoT sensors for real-time soil/weather data
-- Add more regional languages
-- Build an offline mobile app for rural areas
-- Predictive analytics for crop yield and pest infestations
-- Integration with government subsidy and insurance platforms
+- Integrate with **IoT sensors** for real-time soil/weather conditions
+- Add **offline-first mobile app** support for remote users
+- Extend **predictive analytics** for crop yields and pests
+- Connect with **government schemes and insurance APIs**
 
 ---
 
-> "Empowering farmers with AI for a smarter, sustainable tomorrow." 🌱
+## 📚 References
+
+- [IBM Cloud](https://cloud.ibm.com)  
+- [IBM Granite Models](https://www.ibm.com/granite)  
+- [Watsonx.ai Docs](https://dataplatform.cloud.ibm.com/docs)  
+- [OpenWeatherMap API](https://openweathermap.org/api)  
+- [Agmarknet](https://agmarknet.gov.in)  
+- [IMD – Mausam](https://mausam.imd.gov.in)  
+- [ICAR](https://icar.org.in)  
+- [NPSMF Guidelines](https://fert.nic.in)
+
+---
+
+## 👨‍💻 Author
+
+**Lokesh Gulla**  
+GitHub: [Lokesh-554](https://github.com/Lokesh-554)  
+Intern – IBM SkillsBuild AI & Cloud, 2025
+
+---
+
+> 🌱 *Empowering farmers with AI for a smarter, sustainable tomorrow.*
